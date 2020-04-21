@@ -52,4 +52,4 @@ async def _8ball(ctx, *, question):
 async def change_status():
     await client.change_presence(activity=discord.Game(next(status)))
 
-client.run('Njg0MjAzMzY4NTc0MzUzNDQ3.Xna9eQ.TdU10ShB9qQJe2gRbznCWWeGqms')
+client.run('TOKEN')
